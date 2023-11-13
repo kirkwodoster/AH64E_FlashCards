@@ -1,0 +1,14 @@
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/icudtl.dat
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/flutter_windows.dll
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/AssetManifest.bin
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/lib/images/bg_64_1.png
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf
+C:/flutter_flashcard/flashcard_flutter_project/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

@@ -1,0 +1,10 @@
+^C:\FLUTTER_FLASHCARD\FLASHCARD_FLUTTER_PROJECT\BUILD\WINDOWS\CMAKEFILES\C86ED1D23CA7873D417E6AE262C32E8F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/flutter_flashcard/flashcard_flutter_project/windows -BC:/flutter_flashcard/flashcard_flutter_project/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/flutter_flashcard/flashcard_flutter_project/build/windows/flashcard_flutter_project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
