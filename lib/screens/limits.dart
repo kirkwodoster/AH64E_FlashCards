@@ -92,27 +92,31 @@ class _limits extends State<limits> {
                     icon: Icon(FontAwesomeIcons.handPointLeft, size: 30),
                     label: Text(""),
                     style: ElevatedButton.styleFrom(
-                      fixedSize: Size(83, 45),
+                      backgroundColor: Colors.blue,
+                      foregroundColor: Colors.white,
+                      fixedSize: Size(70, 45),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
                       padding: EdgeInsets.only(
-                        right: 20,
-                        left: 25,
-                        top: 15,
-                        bottom: 17,
+                        left: 10,
+                        bottom: 12,
                       ),
                     ),
                   ),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      fixedSize: Size(75, 45),
+                      backgroundColor: Colors.blue,
+                      foregroundColor: Colors.white,
+                      fixedSize: Size(85, 45),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
                     ),
                     onPressed: () {},
-                    child: Text('$value/$_limitLength'),
+                    child: Text('$value/$_limitLength',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 12)),
                   ),
                   ElevatedButton.icon(
                     onPressed: () {
@@ -122,15 +126,15 @@ class _limits extends State<limits> {
                     icon: Icon(FontAwesomeIcons.handPointRight, size: 30),
                     label: Text(""),
                     style: ElevatedButton.styleFrom(
-                      fixedSize: Size(83, 45),
+                      backgroundColor: Colors.blue,
+                      foregroundColor: Colors.white,
+                      fixedSize: Size(70, 45),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
                       padding: EdgeInsets.only(
-                        right: 20,
-                        left: 25,
-                        top: 15,
-                        bottom: 17,
+                        left: 10,
+                        bottom: 12,
                       ),
                     ),
                   ),
@@ -146,7 +150,7 @@ class _limits extends State<limits> {
   void updateToNext() {
     setState(() {
       _initial = _initial + 1;
-      if (_initial > 27) {
+      if (_initial > 24) {
         _initial = 1;
       }
     });
@@ -156,7 +160,7 @@ class _limits extends State<limits> {
     setState(() {
       _initial = _initial - 1;
       if (_initial < 1) {
-        _initial = 27;
+        _initial = 24;
       }
     });
   }

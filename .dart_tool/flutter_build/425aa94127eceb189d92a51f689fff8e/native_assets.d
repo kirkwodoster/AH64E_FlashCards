@@ -1,0 +1,1 @@
+ C:\\flutter_flashcard\\flashcard_flutter_project\\.dart_tool\\flutter_build\\425aa94127eceb189d92a51f689fff8e\\native_assets.yaml: 

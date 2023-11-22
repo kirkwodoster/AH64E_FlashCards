@@ -36,6 +36,10 @@ class _HomePageState extends State<HomePage> {
               //crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    foregroundColor: Colors.white,
+                  ),
                   onPressed: () {
                     Navigator.pushNamed(context, '/ep');
                   },
@@ -46,6 +50,10 @@ class _HomePageState extends State<HomePage> {
                   width: 40,
                 ),
                 ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    foregroundColor: Colors.white,
+                  ),
                   onPressed: () {
                     Navigator.pushNamed(context, '/limits');
                   },

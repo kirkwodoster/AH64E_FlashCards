@@ -83,56 +83,62 @@ class _ep extends State<ep> {
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: <Widget>[
+                children: [
                   ElevatedButton.icon(
                     onPressed: () {
                       showPreviousCard();
                       updateToPrev();
                     },
-                    icon: Icon(FontAwesomeIcons.handPointLeft, size: 30),
+                    icon: Container(
+                        child: Icon(FontAwesomeIcons.handPointLeft, size: 30)),
                     label: Text(""),
                     style: ElevatedButton.styleFrom(
-                      fixedSize: Size(83, 45),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      padding: EdgeInsets.only(
-                        right: 20,
-                        left: 25,
-                        top: 15,
-                        bottom: 17,
-                      ),
-                    ),
+                        backgroundColor: Colors.blue,
+                        foregroundColor: Colors.white,
+                        fixedSize: Size(70, 45),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        padding: EdgeInsets.only(
+                          left: 10,
+                          bottom: 12,
+                        )),
                   ),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      fixedSize: Size(75, 45),
+                      backgroundColor: Colors.blue,
+                      foregroundColor: Colors.white,
+                      fixedSize: Size(90, 45),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
                     ),
                     onPressed: () {},
-                    child: Text('$value/$_epLength'),
+                    child: Text('$value/$_epLength',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 12)),
                   ),
                   ElevatedButton.icon(
                     onPressed: () {
                       showNextCard();
                       updateToNext();
                     },
-                    icon: Icon(FontAwesomeIcons.handPointRight, size: 30),
+                    icon: Container(
+                        child: Icon(FontAwesomeIcons.handPointRight, size: 30)),
                     label: Text(""),
                     style: ElevatedButton.styleFrom(
-                      fixedSize: Size(83, 45),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      padding: EdgeInsets.only(
-                        right: 20,
-                        left: 25,
-                        top: 15,
-                        bottom: 17,
-                      ),
-                    ),
+                        backgroundColor: Colors.blue,
+                        foregroundColor: Colors.white,
+                        fixedSize: Size(70, 45),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        padding: EdgeInsets.only(
+                          left: 10,
+
+                          bottom: 12,
+                          // ),
+                        )),
                   ),
                 ],
               ),
